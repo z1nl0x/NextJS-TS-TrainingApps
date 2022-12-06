@@ -20,6 +20,8 @@ const Home: NextPage = () => {
         <Link href="/products">Products</Link>
         <Link href="/news">News</Link>
         <Link href="/dashboard">Dashboard</Link>
+        <Link href="/dashboard-swr">Dashboard SWR</Link>
+        <Link href="/events">Events</Link>
       </main>
     </div>
   );
