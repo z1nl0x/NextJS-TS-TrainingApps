@@ -27,8 +27,14 @@ const NewsByCategoryPage = ({
 export const getServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
-  const { params } = context;
+  const { params, req, res, query } = context;
+
+  console.log(req.headers.cookie);
+  console.log(query);
+  res.setHeader("Set-Cookie", ["ExampleCookie=hashedstring"]);
+
   const { category } = params!;
+
   const response = await fetch(
     `http://localhost:4000/news?category=${category}`
   );
