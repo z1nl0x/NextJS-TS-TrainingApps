@@ -1,0 +1,30 @@
+.navbar {
+  background-color: black;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  color: white;
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  align-items: center;
+}
+
+.navbar li {
+  padding-right: 27px;
+}
