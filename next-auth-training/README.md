@@ -14,6 +14,19 @@
 npm install
 ```
 
+- Também no mesmo diretório "next-auth-training" crie um arquivo de variáveis de ambiente ".env.local" com as seguintes chaves/valor:
+
+```
+GITHUB_ID=IdDaAplicaçãoNoGithub
+GITHUB_SECRET=ChavePrivadaDaSuaAplicaçãoRegistradaNoGithub
+```
+
+- Ou seja logue na sua conta no github e registre e autorize essa amostra de aplicação na sua máquina para utilizar a plataforma do GitHub como OAuth.
+
+```
+Profile -> Settings -> Developer Settings -> OAuth Apps -> New OAuth App
+```
+
 #### Inicializando a Aplicação Next Auth Training
 
 - No mesmo diretório "next-auth-training" abra o terminal/prompt de comandos e digite: npm start (Para inicializar a aplicação).
