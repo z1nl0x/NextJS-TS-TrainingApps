@@ -3,11 +3,11 @@ import React, { FormEvent } from "react";
 import styles from "./Navbar.module.css";
 import { signIn, signOut, useSession } from "next-auth/react";
 
+// Client-side Authentication validation
+
 const Navbar = () => {
   const { data: session, status } = useSession();
 
-  console.log("session => ", session);
-  console.log("status => ", status);
   return (
     <nav className={styles.navbar}>
       <Link className={styles.logo} href="/">
@@ -17,9 +17,12 @@ const Navbar = () => {
         <Link href="/">
           <li>Home</li>
         </Link>
-        <Link href="/dashboard">
-          <li>Dashboard</li>
-        </Link>
+        {status !== "unauthenticated" && session && (
+          <Link href="/dashboard">
+            <li>Dashboard</li>
+          </Link>
+        )}
+
         <Link href="/blog">
           <li>Blog</li>
         </Link>
