@@ -4,7 +4,7 @@
 
 - Acesse para fazer o download e a instalação do mesmo no endereço: https://nodejs.org/
 
-#### Instalação e Configuração do Projeto para rodar direto na tua máquina
+### Instalação e Configuração do Projeto para rodar direto na tua máquina
 
 - Baixe os arquivos e extraia a pasta "next-auth-training".
 
@@ -27,7 +27,7 @@ GITHUB_SECRET=ChavePrivadaDaSuaAplicaçãoRegistradaNoGithub
 Profile -> Settings -> Developer Settings -> OAuth Apps -> New OAuth App
 ```
 
-#### Inicializando a Aplicação Next Auth Training
+### Inicializando a Aplicação Next Auth Training
 
 - No mesmo diretório "next-auth-training" abra o terminal/prompt de comandos e digite: npm start (Para inicializar a aplicação).
 

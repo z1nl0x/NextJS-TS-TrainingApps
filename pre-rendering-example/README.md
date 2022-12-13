@@ -4,7 +4,7 @@
 
 - Acesse para fazer o download e a instalação do mesmo no endereço: https://nodejs.org/
 
-#### Instalação e Configuração do Projeto para rodar direto na tua máquina
+### Instalação e Configuração do Projeto para rodar direto na tua máquina
 
 - Baixe os arquivos e extraia a pasta "pre-rendering-example".
 
@@ -14,7 +14,7 @@
 npm install
 ```
 
-#### Inicializando a Aplicação Pre Rendering Example
+### Inicializando a Aplicação Pre Rendering Example
 
 - No mesmo diretório "pre-rendering-example" abra o terminal/prompt de comandos e digite: npm start (Para inicializar a aplicação).
 
